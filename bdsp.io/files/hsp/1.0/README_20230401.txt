@@ -1,0 +1,37 @@
+CSV File Structure:
+
+
+SiteID 
+    - Unique identifier of the hospital where the PSG was recorded.
+
+BDSPPatientID
+    - Unique identifier of the patient.    
+
+HashFolderName
+    - Folder where the study and auxiliary files (pre-sleep questionnaires, annotations) can be found on the BDSP OpenData Repository.
+
+ShiftedCreationTime
+    - De-identified timestamp when the PGS was recorded.
+
+PreSleepQuestionnaire
+    - Flag to indicate if the study has a pre-sleep questionnaire. 
+
+HasAnnotations
+    - Flag to indicate if the study has annotation. 
+
+HasStaging 
+    - Flag to indicate if the study has sleep stages recorded. 
+
+StudyType
+    - Type of PSG study.
+
+AgeAtVisit
+    - Patient age when the study was recorded.
+
+SexDSC
+    - Patient Gender
+
+BDSPLastModifiedDTS 
+    - Last time the recorded was updated.
+
+    
